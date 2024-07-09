@@ -17,6 +17,7 @@ async function connectToDatabase() {
 
     // Task 1: Connect to MongoDB
     // {{insert code}}
+    
     try{
         await client.connect();
     }
